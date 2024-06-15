@@ -1,0 +1,59 @@
+*{
+    padding:0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+.vider{
+    width: 100%;
+    height: 2px;
+    background-color: #eee;
+    margin-block: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #eee;
+}
+.img{
+    position: absolute;
+    top: -110px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.app {
+    padding: 20px;
+    width: 380px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+}
+.app .title{
+    padding-block: 10px;
+}
+.app .title .my-name{
+
+    font-size: 26px;
+    color: #3B74BA;
+}
+.app .title .my-job{
+    opacity: .7;
+}
+.app .link li{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;    
+    background-color: #eee;
+    margin-bottom: 10px;
+}
+.app .link li a{
+    color: black;
+}
